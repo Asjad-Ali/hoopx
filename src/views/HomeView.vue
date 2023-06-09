@@ -10,13 +10,40 @@
             
             <div class="rounded bg-gray-50" style="background-color: #222121;">
                <div class="flex">
-               <div class="text-white" style="width: 50%;">
-                  <PieChart />
+                  <div class="text-white flex" style="width: 50%;">
+                     <div>
+                        <PieChart />
+                     </div>
+                     <div>
+                        <table class="activity_table">
+                           <thead>
+                              <tr>
+                                 <th>Token</th>
+                                 <th>Position</th>
+                                 <th>Price</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <div class="flex justify-center gap-2">
+                                       <div class="circle"></div>
+                                       <div>DOGE </div>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <div class="red_status">Closed</div>
+                                 </td>
+                                 <td>1961</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="text-white" style="width: 50%;">
+                     <FilterChart />
+                  </div>
                </div>
-               <div class="text-white" style="width: 50%;">
-                  <FilterChart />
-               </div>
-            </div>
                <div class="flex justify-between mx-10 mt-20 mr-20">
                   <div class="flex items-center">
                      <div class="footer_box"></div>
