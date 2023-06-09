@@ -10,11 +10,11 @@
             
             <div class="rounded bg-gray-50" style="background-color: #222121;">
                <div class="flex">
-                  <div class="text-white flex" style="width: 50%;">
-                     <div>
-                        <PieChart />
-                     </div>
-                     <div>
+                  <div class="text-white" style="width: 50%;">
+                     <PieChart />
+                     <!-- <div class="flex">
+                     </div> -->
+                     <!-- <div>
                         <table class="activity_table">
                            <thead>
                               <tr>
@@ -38,7 +38,7 @@
                               </tr>
                            </tbody>
                         </table>
-                     </div>
+                     </div> -->
                   </div>
                   <div class="text-white" style="width: 50%;">
                      <FilterChart />
