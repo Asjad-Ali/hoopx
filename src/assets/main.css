@@ -1,3 +1,70 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+#drawer-navigation,
+nav,
+body{
+    background-color:  #17171A !important;
+}
+.nav_font{
+    color: #676767 !important;
+}
+.border_bottom{
+    border-bottom: 1px solid #676767;
+    width: 170px;
+    margin: auto;
+    margin-right: 42px;
+    margin-top: 25px;
+}
+.activity_table{
+    width: 95%;
+    color: white;
+    margin: auto;
+}
+.activity_table thead tr th{
+    width: 14%;
+    border-bottom: 1px solid #676767;
+    padding: 20px 0px;
+    color: #a8a8a8;
+    font-weight: 500;
+
+}
+.activity_table tbody tr td{
+    width: 14%;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.red_status{
+    border-radius: 20px;
+    background-color: #323131;
+    width: 100px;
+    margin: auto;
+    padding: 3px 20px;
+    color: #a51d1d;
+}
+.footer_box,
+.pink_box{
+    height: 65px;
+    width: 65px;
+    background-color: #323131;
+    margin: 15px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.smal_txt{
+    font-size: 12px;
+    color: #676767 !important;
+}
+.smal_txt_color{
+    color: #676767 !important;
+}
