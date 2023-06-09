@@ -5,9 +5,18 @@
    <div class="p-4">
       
       <div class="p-4 border-gray-200 rounded-lg dark:border-gray-700 mt-14">
-         <div class="text-white pb-8 text-4xl mb-5">Dashboard</div>
+         <!-- <div class="text-white pb-8 text-4xl mb-5">Dashboard</div> -->
          <div class="grid grid-cols-1 gap-2 mb-4">
+            
             <div class="rounded bg-gray-50" style="background-color: #222121;">
+               <div class="flex">
+               <div class="text-white" style="width: 50%;">
+                  <PieChart />
+               </div>
+               <div class="text-white" style="width: 50%;">
+                  <FilterChart />
+               </div>
+            </div>
                <div class="flex justify-between mx-10 mt-20 mr-20">
                   <div class="flex items-center">
                      <div class="footer_box"></div>
@@ -140,5 +149,7 @@
 
 <script setup>
 import HeaderVue from "../components/Header.vue";
+import PieChart from "../components/PieChart.vue";
+import FilterChart from "../components/FilterChart.vue";
 
 </script>
