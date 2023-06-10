@@ -97,11 +97,12 @@ button{
     color: #676767;
 }
 .activity_table.token_table{
-    margin-top: 60px;
+    margin-top: 85px;
 }
 .activity_table.token_table thead tr th{
     font-size: 12px;
     border-bottom: none;
+    padding: 5px 0px;
 
 }
 .activity_table.token_table tbody tr td{
