@@ -8,17 +8,24 @@
   
   const option = {
     tooltip: {
-      trigger: 'item'
+      trigger: 'item',
+      backgroundColor: 'rgba(0, 0, 0, 0.7)', // Set the background color to a dark shade (adjust the alpha value as needed)
+      textStyle: {
+        color: '#fff' // Set the text color to white
+      }
     },
     legend: {
       top: '5%',
-      left: 'center'
+      left: 'center',
+      textStyle: {
+        color: '#fff' // Set the text color to white
+      }
     },
     series: [
       {
         name: 'Access From',
         type: 'pie',
-        radius: ['40%', '70%'],
+        radius: ['50%', '70%'],
         avoidLabelOverlap: false,
         label: {
           show: false,

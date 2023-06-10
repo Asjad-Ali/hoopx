@@ -53,7 +53,9 @@
    </svg>        
    <span class="sr-only">Close menu</span>
     </button>
-    <div class="text-center text-white text-lg font-semibold my-4">Hoop<span class="text-xl font-semibold">x</span></div>
+    <div class="text-center text-white text-lg font-semibold my-4">
+      <img src="../assets/images/logo.svg" alt="">
+   </div>
   <div class="py-4 overflow-y-auto">
       <ul class="space-y-2 font-medium">
          <li>
