@@ -1,11 +1,10 @@
 
 <template>
-    <VueEcharts :option="option" style="height: 370px" ref="chart" />
+    <VueEcharts :option="option" style="height: 330px" ref="chart" />
   </template>
     
   <script setup>
   import { VueEcharts } from 'vue3-echarts';
-  import { ref } from '@vue/reactivity';
   
   const option = {
     title: {
@@ -42,13 +41,7 @@
         type: 'line',
         stack: 'Total',
         data: [80, 132, 145, 150, 160, 170, 200]
-      },
-      {
-        name: 'Union Ads',
-        type: 'line',
-        stack: 'Total',
-        data: [50, 122, 135, 144, 150, 165, 190]
-      },
+      }
     ]
   };
   
