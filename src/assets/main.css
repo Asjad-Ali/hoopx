@@ -108,4 +108,14 @@ button{
 .activity_table.token_table tbody tr td{
     font-size: 11px;
     padding: 7px 0px;
+    background-color: #323131;
+    border-bottom: 5px solid #222121;
+}
+.activity_table.token_table tbody tr td:first-child{
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.activity_table.token_table tbody tr td:last-child{
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
 }
