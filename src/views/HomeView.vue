@@ -96,12 +96,6 @@
                   </div>
                   <div class="text-white mx-3" style="width: 50%;"><FilterChart /></div>
                </div>
-
-
-
-
-
-
                <div class="flex justify-between mx-10 mr-20">
                   <div class="flex items-center">
                      <div class="footer_box"></div>
