@@ -1,6 +1,6 @@
 
 <template>
-    <VueEcharts :option="option" style="height: 500px" ref="chart" />
+    <VueEcharts :option="option" style="height: 400px" ref="chart" />
   </template>
     
   <script setup>
