@@ -98,6 +98,8 @@ button{
 }
 .activity_table.token_table{
     margin-top: 85px;
+    margin-right: 40px;
+    width: 80%;
 }
 .activity_table.token_table thead tr th{
     font-size: 12px;
