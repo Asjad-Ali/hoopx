@@ -255,147 +255,149 @@
          </div>
          <div class="flex justify-center mb-4 rounded flex-col " style="background-color: #222121;">
             <div class="py-5 pt-8 pl-5 text-xl text-white">Latest Activities</div>
-            <table class="activity_table">
-               <thead>
-                  <tr>
-                     <th>Token</th>
-                     <th>Position</th>
-                     <th>Price</th>
-                     <th>Value</th>
-                     <th>Amount</th>
-                     <th>PNL</th>
-                     <th>Date</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <td>
-                        <div class="flex justify-center gap-2">
-                           <div><img src="../assets/images/doge.svg" alt=""></div>
-                           <div>DOG</div>
-                        </div>
-                     </td>
-                     <td>
-                        <div class="red_status bg-gray-700">Closed</div>
-                     </td>
-                     <td>1961</td>
-                     <td>456 </td>
-                     <td>67879</td>
-                     <td>
-                        <div class="flex justify-center items-center gap-1">
-                           <img src="../assets/images/arrow.svg" alt="">
-                           <div>1.5% </div>
-                        </div>
-                     </td>
-                     <td>1961</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="flex justify-center gap-2">
-                           <div><img src="../assets/images/eth.svg" alt=""></div>
-                           <div>ETH </div>
-                        </div>
-                     </td>
-                     <td>
-                        <div class="red_status bg-green-300">Open</div>
-                     </td>
-                     <td>1961</td>
-                     <td>456 </td>
-                     <td>67879</td>
-                     <td>
-                        <div class="flex justify-center items-center gap-1">
-                           <img src="../assets/images/arrow_down.svg" alt="">
-                           <div>1.5% </div>
-                        </div>
-                     </td>
-                     <td>1961</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="flex justify-center gap-2">
-                           <div><img src="../assets/images/avax.svg" alt=""></div>
-                           <div>AVX</div>
-                        </div>
-                     </td>
-                     <td>
-                        <div class="red_status bg-gray-700">Closed</div>
-                     </td>
-                     <td>1961</td>
-                     <td>456 </td>
-                     <td>67879</td>
-                     <td>
-                        <div class="flex justify-center items-center gap-1">
-                           <img src="../assets/images/arrow_down.svg" alt="">
-                           <div>1.5% </div>
-                        </div>
-                     </td>
-                     <td>1961</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="flex justify-center gap-2">
-                           <div><img src="../assets/images/eth.svg" alt=""></div>
-                           <div>ETH </div>
-                        </div>
-                     </td>
-                     <td>
-                        <div class="red_status bg-green-300">Open</div>
-                     </td>
-                     <td>1961</td>
-                     <td>456 </td>
-                     <td>67879</td>
-                     <td>
-                        <div class="flex justify-center items-center gap-1">
-                           <img src="../assets/images/arrow.svg" alt="">
-                           <div>1.5% </div>
-                        </div>
-                     </td>
-                     <td>1961</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="flex justify-center gap-2">
-                           <div><img src="../assets/images/doge.svg" alt=""></div>
-                           <div>DOG</div>
-                        </div>
-                     </td>
-                     <td>
-                        <div class="red_status bg-gray-700">Closed</div>
-                     </td>
-                     <td>1961</td>
-                     <td>456 </td>
-                     <td>67879</td>
-                     <td>
-                        <div class="flex justify-center items-center gap-1">
-                           <img src="../assets/images/arrow.svg" alt="">
-                           <div>1.5% </div>
-                        </div>
-                     </td>
-                     <td>1961</td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <div class="flex justify-center gap-2">
-                           <div><img src="../assets/images/btc.svg" alt=""></div>
-                           <div>BTC </div>
-                        </div>
-                     </td>
-                     <td>
-                        <div class="red_status bg-green-300">Open</div>
-                     </td>
-                     <td>1961</td>
-                     <td>456 </td>
-                     <td>67879</td>
-                     <td>
-                        <div class="flex justify-center items-center gap-1">
-                           <img src="../assets/images/arrow_down.svg" alt="">
-                           <div>1.5% </div>
-                        </div>
-                     </td>
-                     <td>1961</td>
-                  </tr>
-               </tbody>
-            </table>
+            <div class="overflow-x-auto">
+               <table class="activity_table table-auto">
+                  <thead>
+                     <tr>
+                        <th>Token</th>
+                        <th>Position</th>
+                        <th>Price</th>
+                        <th>Value</th>
+                        <th>Amount</th>
+                        <th>PNL</th>
+                        <th>Date</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>
+                           <div class="flex justify-center gap-2">
+                              <div><img src="../assets/images/doge.svg" alt=""></div>
+                              <div>DOG</div>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="red_status bg-gray-700">Closed</div>
+                        </td>
+                        <td>1961</td>
+                        <td>456 </td>
+                        <td>67879</td>
+                        <td>
+                           <div class="flex justify-center items-center gap-1">
+                              <img src="../assets/images/arrow.svg" alt="">
+                              <div>1.5% </div>
+                           </div>
+                        </td>
+                        <td>1961</td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <div class="flex justify-center gap-2">
+                              <div><img src="../assets/images/eth.svg" alt=""></div>
+                              <div>ETH </div>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="red_status bg-green-300">Open</div>
+                        </td>
+                        <td>1961</td>
+                        <td>456 </td>
+                        <td>67879</td>
+                        <td>
+                           <div class="flex justify-center items-center gap-1">
+                              <img src="../assets/images/arrow_down.svg" alt="">
+                              <div>1.5% </div>
+                           </div>
+                        </td>
+                        <td>1961</td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <div class="flex justify-center gap-2">
+                              <div><img src="../assets/images/avax.svg" alt=""></div>
+                              <div>AVX</div>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="red_status bg-gray-700">Closed</div>
+                        </td>
+                        <td>1961</td>
+                        <td>456 </td>
+                        <td>67879</td>
+                        <td>
+                           <div class="flex justify-center items-center gap-1">
+                              <img src="../assets/images/arrow_down.svg" alt="">
+                              <div>1.5% </div>
+                           </div>
+                        </td>
+                        <td>1961</td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <div class="flex justify-center gap-2">
+                              <div><img src="../assets/images/eth.svg" alt=""></div>
+                              <div>ETH </div>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="red_status bg-green-300">Open</div>
+                        </td>
+                        <td>1961</td>
+                        <td>456 </td>
+                        <td>67879</td>
+                        <td>
+                           <div class="flex justify-center items-center gap-1">
+                              <img src="../assets/images/arrow.svg" alt="">
+                              <div>1.5% </div>
+                           </div>
+                        </td>
+                        <td>1961</td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <div class="flex justify-center gap-2">
+                              <div><img src="../assets/images/doge.svg" alt=""></div>
+                              <div>DOG</div>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="red_status bg-gray-700">Closed</div>
+                        </td>
+                        <td>1961</td>
+                        <td>456 </td>
+                        <td>67879</td>
+                        <td>
+                           <div class="flex justify-center items-center gap-1">
+                              <img src="../assets/images/arrow.svg" alt="">
+                              <div>1.5% </div>
+                           </div>
+                        </td>
+                        <td>1961</td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <div class="flex justify-center gap-2">
+                              <div><img src="../assets/images/btc.svg" alt=""></div>
+                              <div>BTC </div>
+                           </div>
+                        </td>
+                        <td>
+                           <div class="red_status bg-green-300">Open</div>
+                        </td>
+                        <td>1961</td>
+                        <td>456 </td>
+                        <td>67879</td>
+                        <td>
+                           <div class="flex justify-center items-center gap-1">
+                              <img src="../assets/images/arrow_down.svg" alt="">
+                              <div>1.5% </div>
+                           </div>
+                        </td>
+                        <td>1961</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
          </div>
       </div>
    </div>
