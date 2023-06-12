@@ -6,11 +6,11 @@
       
       <div class="p-4 border-gray-200 rounded-lg dark:border-gray-700 mt-14 content_body">
          <!-- <div class="text-white pb-8 text-4xl mb-5">Dashboard</div> -->
-         <div class="grid grid-cols-1 gap-2 mb-4" style="    margin-top: 95px;">
-            <div class="rounded bg-gray-50" style="background-color: #222121;">
-               <div class="pt-5 pl-5 text-xl text-white">Hoopx</div>
+         <div class="grid grid-cols-1 gap-2 mb-4 bg-[#222121] mt-10" >
+            <div class="pt-5 pl-5 text-xl text-white">Hoopx</div>
+            <div class="rounded mb-7 bg-[#222121]" >
                <div class="flex">
-                  <div class="text-white" style="width: 50%;border-right: 1px solid #676767 ;">
+                  <div class="text-white w-1/2 md:border-r border-gray-600 sm:border-r-0" >
                      <div class="text-white" style="width: 45%;float: left;">
                         <PieChart />
                      </div>
@@ -190,7 +190,7 @@
             </div>
          </div>
          <div class="grid grid-cols-2 :grid-cols-1 gap-6 mb-4">
-            <div class="flex rounded flex-col" style="background-color: #222121;">
+            <div class="flex rounded flex-col bg-[#222121]">
                <div class="flex justify-between items-center">
                   <div class="py-5 pt-8 pl-5 text-xl text-white">My Stats</div>
                   <!-- <div class="account_detail">Account</div> -->
@@ -243,7 +243,7 @@
                   </div>
               </div>
             </div>
-            <div class=" rounded " style="background-color: #222121;">
+            <div class=" rounded bg-[#222121]">
                <div class="py-5 pt-8 pl-5 text-xl text-white">Latest Research</div>
                <div class="ps-5">
                   <img src="../assets/images/Player_.svg" alt="">
@@ -253,7 +253,7 @@
                <button class="float-right text-white mt-8 mr-7">Read more</button>
             </div>
          </div>
-         <div class="flex justify-center mb-4 rounded flex-col " style="background-color: #222121;">
+         <div class="flex justify-center mb-4 rounded flex-col bg-[#222121]">
             <div class="py-5 pt-8 pl-5 text-xl text-white">Latest Activities</div>
             <div class="overflow-x-auto">
                <table class="activity_table table-auto">
