@@ -167,3 +167,13 @@ button{
         padding-right: 22px;
     }
   }
+  @media screen and (width: 768px) {
+    .three_boxes{
+        flex-wrap: wrap;
+    }
+  }
+  @media screen and (width:820px) {
+    .three_boxes{
+        flex-wrap: wrap;
+    }
+  }
