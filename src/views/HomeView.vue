@@ -11,10 +11,10 @@
             <div class="rounded mb-7 bg-[#222121]" >
                <div class="flex graph_container">
                   <div class="text-white w-1/2 md:border-r border-gray-600 sm:border-r-0 paigraph_container" >
-                     <div class="text-white" style="width: 45%;float: left;">
+                     <div class="text-white pai_chart">
                         <PieChart />
                      </div>
-                     <div class="text-white" style="width: 55%;float: left;">
+                     <div class="text-white token_table_container">
                         <table class="activity_table token_table">
                            <thead>
                               <tr>
