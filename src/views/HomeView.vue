@@ -9,8 +9,8 @@
          <div class="grid grid-cols-1 gap-2 mb-4 bg-[#222121] mt-10" >
             <div class="pt-5 pl-5 text-xl text-white">Hoopx</div>
             <div class="rounded mb-7 bg-[#222121]" >
-               <div class="flex">
-                  <div class="text-white w-1/2 md:border-r border-gray-600 sm:border-r-0" >
+               <div class="flex graph_container">
+                  <div class="text-white w-1/2 md:border-r border-gray-600 sm:border-r-0 paigraph_container" >
                      <div class="text-white" style="width: 45%;float: left;">
                         <PieChart />
                      </div>
@@ -147,10 +147,10 @@
                         </table>
                      </div>
                   </div>
-                  <div class="text-white mx-3" style="width: 50%;"><FilterChart /></div>
+                  <div class="text-white mx-3 filter_chart"><FilterChart /></div>
                </div>
-               <div class="flex justify-between mx-10 mr-20">
-                  <div class="flex items-center">
+               <div class="flex justify-between mx-10 mr-20 flex_boxes">
+                  <div class="flex items-center box_body">
                      <div class="footer_box flex items-center justify-center">
                         <img src="../assets/images/lastevalicon.svg" alt="">
                      </div>
@@ -159,7 +159,7 @@
                         <p>$5.367</p>
                      </div>
                   </div>
-                  <div class="flex items-center">
+                  <div class="flex items-center box_body">
                      <div class="footer_box flex items-center justify-center">
                         <img src="../assets/images/apricon.svg" alt="">
                      </div>                     
@@ -168,7 +168,7 @@
                         <p>2.367%</p>
                      </div>
                   </div>
-                  <div class="flex items-center">
+                  <div class="flex items-center box_body">
                      <div class="footer_box flex items-center justify-center">
                         <img src="../assets/images/tvlicon.svg" alt="">
                      </div>                     
@@ -177,7 +177,7 @@
                         <p>$468.0000</p>
                      </div>
                   </div>
-                  <div class="flex items-center">
+                  <div class="flex items-center box_body">
                      <div class="footer_box flex items-center justify-center">
                         <img src="../assets/images/activeusericon.svg" alt="">
                      </div>                     
@@ -189,7 +189,7 @@
               </div>
             </div>
          </div>
-         <div class="grid grid-cols-2 :grid-cols-1 gap-6 mb-4">
+         <div class="grid grid-cols-2 :grid-cols-1 gap-6 mb-4 stats_container">
             <div class="flex rounded flex-col bg-[#222121]">
                <div class="flex justify-between items-center">
                   <div class="py-5 pt-8 pl-5 text-xl text-white">My Stats</div>
@@ -213,12 +213,12 @@
                   <button class="text-purple-600">Withdraw</button>
                </div>
                <div class="border_bottom" style="width: 92%;"></div>
-              <div class="flex justify-between mr-10">
+              <div class="flex justify-between mr-10 three_boxes">
                   <div class="flex items-center">
                      <div class="footer_box flex items-center justify-center">
                         <img src="../assets/images/apricon.svg" alt="">
                      </div>
-                     <div class="text-white">
+                     <div class="text-white ">
                         <p class="smal_txt">Total earnings</p>
                         <p>$12345</p>
                      </div>
@@ -245,7 +245,7 @@
             </div>
             <div class=" rounded bg-[#222121]">
                <div class="py-5 pt-8 pl-5 text-xl text-white">Latest Research</div>
-               <div class="ps-5">
+               <div class="ps-5 image_box">
                   <img src="../assets/images/Player_.svg" alt="">
                </div>
                <h6 class="text-white ml-5 my-4 text-sm">How to empower your trading strategy with AI?</h6>

@@ -119,3 +119,51 @@ button{
     border-top-right-radius: 13px;
     border-bottom-right-radius: 13px;
 }
+.filter_chart{
+    width: 50%;
+}
+@media screen and (max-width: 480px) {
+    .graph_container{
+        flex-direction: column;
+    }
+    .paigraph_container{
+        width: 100%;
+        padding-right: 10px;
+    }
+    .content_body{
+        width: 100%;
+    }
+    .activity_table.token_table{
+        width: 95%;
+        margin-right: 0px;
+    }
+    .filter_chart{
+        width: 95%;
+    }
+    .flex_boxes{
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: start !important;
+    }
+    .box_body{
+        justify-content: center !important;
+        min-width: 154px !important;
+    }
+    .stats_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .three_boxes{
+        flex-wrap: wrap;
+    }
+    .activity_table{
+        font-size: 12px !important;
+    }
+    .red_status{
+        width: 50px;
+        padding: 3px 2px;
+    }
+    .image_box{
+        padding-right: 22px;
+    }
+  }
